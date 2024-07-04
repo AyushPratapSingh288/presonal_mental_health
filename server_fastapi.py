@@ -5,7 +5,6 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import logging
 from sklearn.ensemble import RandomForestClassifier
-import json
 import joblib
 from pydantic import BaseModel
 
